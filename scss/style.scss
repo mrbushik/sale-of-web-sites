@@ -349,7 +349,7 @@
 }
 
 .form-left-section {
-    width: 686px;
+    width: 730px;
 }
 
 .form__inner {
@@ -530,6 +530,44 @@
     display: flex;
     justify-content: space-around;
 
+}
+
+.form3__item {
+    width: 335px;
+    height: 213px;
+}
+
+.form3-title {
+    width: 170px;
+}
+
+.form-question4 {
+    height: 771px;
+}
+
+.target-question-form4 {
+    width: 768px;
+}
+
+.target-form4-element {
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.form4-item {
+    // margin-right: 30px;
+    width: 221px;
+    height: 175px;
+    margin-top: 26px;
+    margin-right: 20px;
+}
+
+.yandex-img {
+    width: 170px;
+}
+
+.form-sotial_item {
+    display: flex;
 }
 
 @import 'media';
