@@ -29,6 +29,8 @@
     min-height: 750px;
     max-width: 1511px;
     position: absolute;
+    z-index: -1;
+    width: 100%;
 }
 
 .header-row {
@@ -113,6 +115,235 @@
     position: absolute;
     margin-left: 8px;
     margin-top: 7px;
+}
+
+.create__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-offer_title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 35px;
+    margin-top: 130px;
+    width: 637px;
+
+    p {
+        color: #45C436;
+    }
+}
+
+.create-info {
+    display: flex;
+    margin-top: 39px;
+}
+
+.create-offer_subtile {
+    font-weight: 400;
+    font-size: 34px;
+    margin-top: 20px;
+}
+
+.create-info_title {
+    width: 342px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Roboto-Regular", sans-serif;
+
+    a {
+        color: $green;
+    }
+}
+
+.create-lightning {
+    width: 39.3px;
+    height: 37.28px;
+}
+
+.create-rectangle {
+    width: 324px;
+    height: 72px;
+    margin-top: 66px;
+    position: relative;
+    background: linear-gradient(291.31deg, rgba(0, 0, 0, 0.2) 3.27%, rgba(0, 0, 0, 0) 66.8%), #45C436;
+    border-radius: 61px;
+
+}
+
+.create-rectangle_titile {
+    padding-top: 19px;
+    padding-left: 43px;
+    width: 131px;
+    color: #fff;
+    font-family: "Roboto-Regular", sans-serif;
+}
+
+.create-rectangle_book {
+    width: 204px;
+    height: 153px;
+    position: absolute;
+    margin-left: 159px;
+    margin-top: -104px;
+
+}
+
+// .create-notebook {}
+.create-phone {
+    position: absolute;
+    top: 487px;
+    margin-left: -39%;
+}
+
+.create-notebook {
+    margin-top: 40px;
+}
+
+.site-type {
+    margin-top: 150px;
+
+    &-title {
+        width: 631px;
+        // height: 55px;
+        font-weight: 600;
+        font-size: 46px;
+        padding-left: 30%;
+        display: inline-flex;
+    }
+}
+
+.rectangle {
+    width: 144px;
+    height: 78px;
+    border: 1px solid #45c436;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 48%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    margin-top: -7px;
+}
+
+.site-type_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-type_item {
+    width: 370px;
+    height: 591px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+    border-radius: 12px;
+}
+
+.type-title {
+    color: #222;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    margin: 0px auto;
+    padding: 30px 0;
+    width: 205px;
+
+
+}
+
+.type-title_first {
+    width: 100px;
+}
+
+.type {
+    &-row {
+        width: 370px;
+        height: 1px;
+        background: rgba(196, 196, 196, 0.39);
+    }
+
+    &-img {
+        margin: 35px 39px 35px 43px;
+    }
+
+    &-price {
+        font-weight: 400;
+        font-size: 24px;
+        color: $green;
+        margin-left: 108px;
+        margin-bottom: 23px;
+    }
+}
+
+.old-price {
+    font-weight: 400;
+    font-size: 18px;
+    color: #989897;
+    margin: 23px 140px;
+
+    &_row {
+        background: rgba(255, 52, 52, 0.6);
+        width: 101px;
+        height: 1px;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+}
+
+.type-about_rectangle {
+    width: 227px;
+    height: 72px;
+    background: linear-gradient(288.46deg, rgba(0, 0, 0, 0.2) -12.86%, rgba(0, 0, 0, 0) 66.5%), #45C436;
+    border-radius: 126px;
+    margin: 0 73px 0 70px;
+
+    p {
+        padding: 26px 68px 25px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+        font-family: Roboto-Regular;
+    }
+}
+
+.price-rectangle {
+    width: 216px;
+}
+
+.prise-cirkle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #45C436;
+    box-shadow: inset 0px 0px 5px #FFFFFF;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 14px;
+}
+
+.price-title {
+    margin-left: 12%;
+    margin-top: -27px;
+}
+
+.price-section {
+    margin-top: 150px;
+}
+
+.prise-subtitle {
+    width: 479px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+
+.price-form {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.13);
+    border-radius: 12px;
+    width: 1170px;
+    height: 597px;
 }
 
 @import 'media';
