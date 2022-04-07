@@ -405,6 +405,7 @@
     border: 1px solid rgba(0, 0, 0, 0.09);
     box-sizing: border-box;
     border-radius: 9px;
+    cursor: pointer;
 }
 
 .target-item_img {
@@ -568,6 +569,84 @@
 
 .form-sotial_item {
     display: flex;
+}
+
+.form4-next_rectangle {
+    border: 0px;
+}
+
+.type-about_rectangle {
+    cursor: pointer
+}
+
+.form-target_item:hover {
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0.27) 0%, rgba(84, 223, 67, 0.27) 11.25%, rgba(255, 255, 255, 0.27) 22.19%, rgba(84, 223, 67, 0.27) 27.92%, rgba(255, 255, 255, 0.27) 35.73%, rgba(84, 223, 67, 0.27) 44.06%, rgba(255, 255, 255, 0.27) 53.44%, rgba(84, 223, 67, 0.27) 63.33%, rgba(255, 255, 255, 0.27) 72.19%, rgba(84, 223, 67, 0.27) 80%, rgba(255, 255, 255, 0.27) 88.85%, rgba(84, 223, 67, 0.27) 99.27%, rgba(255, 255, 255, 0) 100%), #45C436;
+    border-radius: 9px;
+}
+
+
+.form4-next_rectangle:hover {
+    background: #fff
+}
+
+.bonus-form {
+    height: 364px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.13);
+    border-radius: 12px;
+
+    img {
+        margin-top: 32px;
+    }
+}
+
+.bonus-form_title {
+    width: 644px;
+    margin-top: 84px;
+}
+
+.bonuse-rectangls {
+    display: flex;
+    margin-top: 44px;
+}
+
+.phone-rectangl {
+    height: 53px;
+    width: 270px;
+    background: #F2F2F2;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 61px;
+
+    input {
+        height: 20px;
+        border: 0px;
+        margin-top: 13px;
+        background-color: #F2F2F2;
+        position: absolute;
+        margin-left: 53px;
+    }
+
+    img {
+        margin-left: 10%;
+        margin-top: 19px;
+        width: 15px;
+    }
+}
+
+.submit-rectangl {
+    width: 269px;
+    height: 53px;
+
+    p {
+        text-align: center;
+        padding-left: 90px;
+        padding-top: 1px;
+    }
+}
+
+.developed {
+    margin-top: 117px;
 }
 
 @import 'media';
