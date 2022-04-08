@@ -738,12 +738,13 @@
 }
 
 .about__inner {
+    display: flex;
     position: relative;
     z-index: 3;
 }
 
 .main-programmer_content {
-    padding-top: 360px;
+    padding-top: 380px;
     position: relative;
 }
 
@@ -764,7 +765,7 @@
     width: 233px;
     height: 54px;
     border-radius: 9px;
-    margin-left: 5%;
+    margin-left: 16%;
 
     p {
         padding-top: 15px;
@@ -799,7 +800,7 @@
 .about-info-rectangle {
     width: 278px;
     height: 98px;
-
+    margin-top: 29px;
     background: #FFFFFF;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.05);
     border-radius: 9px;
@@ -833,5 +834,163 @@
     }
 }
 
+.about-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.about-rectangle {
+    width: 129px;
+    padding-top: 4px;
+    position: absolute;
+    margin-top: -56px;
+    margin-left: 8%;
+    height: 56px;
+}
+
+.about-quality_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 39px;
+}
+
+.about__item-quality {
+    margin-left: 70px;
+    margin-top: 130px;
+}
+
+.about-quality_item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 2px solid #45C436;
+    box-sizing: border-box;
+    border-radius: 9px;
+    width: 370px;
+    height: 149px;
+    display: flex;
+
+    p {
+        width: 160px;
+        margin-left: 43px;
+        margin-top: 53px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    img {
+        position: absolute;
+        margin-left: 14%;
+        margin-top: -1px;
+    }
+}
+
+.about-quality3 {
+    p {
+        width: 235px;
+
+    }
+}
+
+#about-quality-img1 {
+    margin-left: 26%;
+}
+
+#about-quality-img2 {
+    margin-top: 47px;
+    margin-left: 21%;
+}
+
+#about-quality-img3 {
+    margin-top: 75px;
+    margin-left: 288px;
+}
+
+.about-quality4 {
+    p {
+        width: 220px;
+    }
+}
+
+.buy-section {
+    background: #45C436;
+    height: 311px;
+    width: 100%;
+}
+
+.vector1 {
+    margin-left: 5%;
+    position: absolute;
+
+}
+
+.vector2 {
+    margin-left: 36%;
+    position: absolute;
+
+}
+
+.vector3 {
+    position: absolute;
+    margin-left: 53px;
+}
+
+.buy {
+    margin-top: 160px;
+
+}
+
+.buy-conten__inner {
+    z-index: 10;
+    position: relative;
+}
+
+.main-buy {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 0px;
+    height: 310px;
+}
+
+.buy-number {
+
+    border: 2px solid #FFDE23;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 37px;
+    height: 37px;
+    margin-right: 17px;
+
+    p {
+        text-align: center;
+        margin-top: 3px;
+        font-weight: 600;
+        font-size: 24px;
+        color: #fff;
+    }
+}
+
+.buy-content__item {
+    display: flex;
+}
+
+.buy-item-text {
+
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    width: 322px;
+}
+
+.buy-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+
+    color: #FFFFFF;
+}
 
 @import 'media';
