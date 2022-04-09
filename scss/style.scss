@@ -997,4 +997,119 @@
     color: #FFFFFF;
 }
 
+.lead {
+    margin-top: 50px;
+}
+
+.lead-img {
+    margin-top: 50px;
+    width: 99%;
+    position: absolute;
+}
+
+.lead-title {
+    width: 1100px;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 67px;
+    padding-top: 110px;
+
+    p {
+        display: contents;
+    }
+}
+
+.lead-container {
+    position: relative;
+    z-index: 3;
+}
+
+.lead-form {
+    position: relative;
+    z-index: 10;
+    width: 411px;
+    height: 530px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+    border-radius: 9px;
+
+    &_title {
+        padding-top: 60px;
+        font-weight: 600;
+        font-size: 34px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &_subtitle {
+        display: block;
+        width: 229px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 20%;
+        padding-bottom: 37px;
+    }
+}
+
+.lead_rectangle {
+    width: 355px;
+    height: 72px;
+    background: #F2F2F2;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 61px;
+    margin-left: 25px;
+    margin-bottom: 7px;
+
+    input {
+        border: 0;
+        background-color: unset;
+        margin-left: 18px;
+        color: #C5C5C5;
+        font-weight: 400;
+        font-size: 18px;
+        width: 250px;
+    }
+}
+
+.lead-rectangle_container {
+    margin-top: 26px;
+    margin-left: 24px;
+}
+
+.lead-btn {
+    background: linear-gradient(291.31deg, rgba(0, 0, 0, 0.2) 3.27%, rgba(0, 0, 0, 0) 66.8%), #45C436;
+    border-radius: 61px;
+    width: 353px;
+    height: 72px;
+    margin-left: 25px;
+    margin-top: 10px;
+    color: #fff;
+    border: 0;
+
+    &:hover {
+        background: radial-gradient(36.31% 127.36% at 72.66% 83.02%, rgba(167, 255, 157, 0.5) 27.92%, rgba(255, 255, 255, 0) 100%), #45C436;
+    }
+}
+
+.lead-info_text {
+    display: flex;
+    margin-left: 55px;
+
+    p {
+        font-weight: 400;
+        font-size: 12px;
+        margin-left: 3px;
+    }
+}
+
+.lead-book-img {
+    position: absolute;
+    margin-top: 263px;
+    margin-left: 13%;
+}
+
 @import 'media';
