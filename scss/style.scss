@@ -945,6 +945,10 @@
 .buy-conten__inner {
     z-index: 10;
     position: relative;
+    width: 752px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 34px;
 }
 
 .main-buy {
@@ -989,7 +993,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 46px;
-
+    padding-top: 49px;
     color: #FFFFFF;
 }
 
