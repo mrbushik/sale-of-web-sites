@@ -253,6 +253,10 @@
 
 .type-title_first {
     width: 100px;
+
+    img {
+        margin-left: 0;
+    }
 }
 
 .type {
@@ -1243,6 +1247,10 @@
 // moble
 .create__item-adaptive {
     display: none;
+}
+
+.bonus-form {
+    margin-top: 50px;
 }
 
 @import '_media';

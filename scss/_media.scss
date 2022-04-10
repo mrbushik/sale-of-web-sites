@@ -37,6 +37,9 @@
         margin-top: 170px;
     }
 
+    .present {
+        display: none;
+    }
 
 }
 
@@ -163,6 +166,21 @@
             font-size: 24px
         }
     }
+
+    .bonuse-rectangls {
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .phone-rectangl {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .submit-rectangl {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width:490px) {
@@ -172,6 +190,12 @@
 
     .prise-subtitle {
         width: auto;
+    }
+
+    .form3__item {
+        width: 280px;
+        height: 199px;
+        padding-top: 15px;
     }
 }
 
@@ -233,6 +257,19 @@
         img {
             margin-top: 24px;
             margin-left: -30px;
+        }
+    }
+
+    .type-img_last {
+        width: 280px;
+    }
+
+    .phone-rectangl {
+        height: 53px;
+        width: 224px;
+
+        img {
+            margin-left: 0;
         }
     }
 }
