@@ -13,12 +13,30 @@
     .site-type-title {
         padding-left: 17%;
     }
+
+    .bonus-target_item {
+        display: none;
+    }
+
+    .price-form {
+        max-width: 1170px;
+    }
+
+    .prise-cirkle {
+        display: none;
+    }
+
+    .price-form {
+        box-shadow: none;
+        width: auto;
+    }
 }
 
 @media (max-width:1000px) {
     .create-notebook {
         margin-top: 170px;
     }
+
 
 }
 
@@ -29,6 +47,7 @@
         display: none;
 
     }
+
 
     .site-type-title {
         padding-left: 1%;
@@ -54,7 +73,26 @@
     .create__inner {
         display: block;
     }
+
+    .form-target__form {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .price-form-rectangls {
+        display: none;
+    }
+
+    .target-question {
+        width: auto;
+    }
+
+    .prise-subtitle {
+        margin: 20px auto 0;
+    }
 }
+
+@media (max-width:740px) {}
 
 @media (max-width:690px) {
     .header-info {
@@ -90,6 +128,30 @@
         }
     }
 
+    .type-title_adaptive {
+        margin: 0 20%;
+
+        p {
+            width: 123px;
+
+        }
+    }
+
+    .target-question {
+        font-size: 21px;
+        line-height: 21px;
+    }
+
+    .prise-subtitle {
+        font-size: 21px;
+    }
+
+    .price-title {
+        display: block;
+        padding-top: 19px;
+        margin-left: 30%;
+    }
+
     .create-offer {
         h2 {
             font-size: 24px;
@@ -103,6 +165,16 @@
     }
 }
 
+@media (max-width:490px) {
+    .type-title_adaptive {
+        margin: 0;
+    }
+
+    .prise-subtitle {
+        width: auto;
+    }
+}
+
 @media (max-width:390px) {
     .create-rectangle_titile {
         margin-top: 12px;
@@ -111,6 +183,12 @@
     .create-rectangle {
         width: 297px;
         height: 62px;
+    }
+
+
+
+    .type-img {
+        margin: 35px 24px 35px 10px;
     }
 
     .create-rectangle_book {
@@ -123,7 +201,7 @@
     .site-type_item {
         width: 300px;
 
-        img {
+        margin-right: -20px img {
             width: 283px;
             height: 218px;
             margin: 35px 2px 35px 8px;
@@ -144,6 +222,17 @@
 
         p {
             padding: 16px 49px 25px;
+        }
+    }
+
+    .form-next_rectangle {
+        p {
+            padding: 0px 51px 18px;
+        }
+
+        img {
+            margin-top: 24px;
+            margin-left: -30px;
         }
     }
 }
