@@ -8,8 +8,9 @@
 //     background-image: url(../img/baskground__header.png)
 // }
 .container {
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header__inner {
@@ -256,7 +257,7 @@
 
 .type {
     &-row {
-        width: 370px;
+        width: 100%;
         height: 1px;
         background: rgba(196, 196, 196, 0.39);
     }
@@ -1234,4 +1235,14 @@
     background: #E6E6E6;
 }
 
-@import 'media';
+.create-notebook {
+    width: 100%;
+    height: auto;
+}
+
+// moble
+.create__item-adaptive {
+    display: none;
+}
+
+@import '_media';

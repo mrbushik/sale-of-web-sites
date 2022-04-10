@@ -1,0 +1,163 @@
+@media (max-width:1200px) {
+    .site-type_inner {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .site-type_item {
+        margin-right: 20px;
+        margin-top: 20px;
+        margin: 20px 20px 0;
+    }
+
+    .site-type-title {
+        padding-left: 17%;
+    }
+}
+
+@media (max-width:1000px) {
+    .create-notebook {
+        margin-top: 170px;
+    }
+
+}
+
+@media (max-width:870px) {
+
+    .create-phone,
+    .create-notebook {
+        display: none;
+
+    }
+
+    .site-type-title {
+        padding-left: 1%;
+    }
+
+    .create__item-adaptive {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .create__phone-adaptive {
+        display: block;
+        margin-left: 0;
+        height: auto;
+    }
+
+    .create__phone-adaptive {
+        margin-left: 0;
+    }
+
+    .create__inner {
+        display: block;
+    }
+}
+
+@media (max-width:690px) {
+    .header-info {
+        display: none;
+
+        a {
+            display: none;
+        }
+    }
+
+    .site-type-title {
+        width: auto;
+        font-size: 24px;
+        padding-left: 5%;
+    }
+
+    .rectangle {
+        width: 74px;
+        height: 39px;
+    }
+
+    .header-logo {
+        margin-top: 20px;
+
+        p {
+            font-size: 24px;
+        }
+
+        img {
+            width: 36px;
+            height: 29px;
+            padding-top: 26px;
+        }
+    }
+
+    .create-offer {
+        h2 {
+            font-size: 24px;
+            width: auto;
+            line-height: 29px;
+        }
+
+        h3 {
+            font-size: 24px
+        }
+    }
+}
+
+@media (max-width:390px) {
+    .create-rectangle_titile {
+        margin-top: 12px;
+    }
+
+    .create-rectangle {
+        width: 297px;
+        height: 62px;
+    }
+
+    .create-rectangle_book {
+        width: 171px;
+        height: 130px;
+        margin-left: 141px;
+        margin-top: -93px;
+    }
+
+    .site-type_item {
+        width: 300px;
+
+        img {
+            width: 283px;
+            height: 218px;
+            margin: 35px 2px 35px 8px;
+        }
+    }
+
+    .old-price {
+        margin: 23px 108px 23px 111px;
+    }
+
+    .type-price {
+        margin-left: 85px;
+    }
+
+    .type-about_rectangle {
+        width: 180px;
+        height: 53px;
+
+        p {
+            padding: 16px 49px 25px;
+        }
+    }
+}
+
+@media (max-width:381px) {
+    .site-type-title {
+        font-size: 20px;
+        margin-left: 0;
+
+    }
+
+    .rectangle {
+        width: 60px;
+        height: 34px;
+        margin-top: -5px;
+    }
+}
