@@ -1,3 +1,17 @@
+@media (max-width:1555px) {
+    .buy_fullcontent__inner {
+        display: grid;
+    }
+
+    .buy-section {
+        height: 592px;
+    }
+
+    .buy_fullcontent-item {
+        margin-top: 17px;
+    }
+}
+
 @media (max-width:1200px) {
     .site-type_inner {
         justify-content: center;
@@ -133,6 +147,31 @@
     #about-quality-img2 {
         margin-left: 36%;
     }
+
+    .buy-section {
+        position: absolute;
+        z-index: 10;
+    }
+
+    .buy-conten__inner {
+        width: auto;
+    }
+
+
+}
+
+@media (max-width:782px) {
+    .buy-content__item {
+        margin-bottom: 10px;
+    }
+
+    .buy-section {
+        height: 706px;
+    }
+
+    .buy-conten__inner {
+        justify-content: center;
+    }
 }
 
 @media (max-width:740px) {
@@ -251,9 +290,41 @@
     }
 }
 
+@media (max-width:666px) {
+    .buy_fullcontent-item {
+        img {
+            height: auto;
+            width: 100%;
+            position: relative;
+        }
+    }
+
+    .buy-section {
+        height: 792px;
+    }
+
+    .vector2 {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .vector1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .vector3 {
+        margin-left: 0;
+    }
+}
+
 @media (max-width:580px) {
     #about-quality-img2 {
         margin-left: 55%;
+    }
+
+    .buy-section {
+        height: 750px;
     }
 }
 
@@ -284,6 +355,10 @@
 
     #about-quality-img2 {
         margin-left: 68%;
+    }
+
+    .buy-section {
+        height: 702px;
     }
 }
 
@@ -352,6 +427,10 @@
         img {
             max-width: 100%;
         }
+    }
+
+    .buy-section {
+        height: 680px;
     }
 }
 
@@ -434,6 +513,17 @@
         margin-left: 70%;
     }
 
+    .buy-section {
+        height: 736px;
+    }
+
+    .buy-item-text {
+        width: 228px;
+    }
+
+    .buy-title {
+        margin-left: 4%;
+    }
 }
 
 @media (max-width:381px) {
@@ -469,5 +559,9 @@
         p {
             margin-top: -36px;
         }
+    }
+
+    .buy-section {
+        height: 784px;
     }
 }
