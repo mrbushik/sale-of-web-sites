@@ -845,6 +845,9 @@
     font-size: 34px;
 }
 
+.lead-title_pc {
+    display: none;
+}
 
 
 .about-rectangle {
@@ -914,6 +917,10 @@
 #about-quality-img3 {
     margin-top: 75px;
     margin-left: 288px;
+}
+
+.buy_fullcontent__inner {
+    display: flex;
 }
 
 .about-quality4 {
@@ -1010,7 +1017,7 @@
 
 .lead-img {
     margin-top: 50px;
-    width: 99%;
+    width: 100%;
     position: absolute;
 }
 

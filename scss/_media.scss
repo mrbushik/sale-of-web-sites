@@ -57,6 +57,16 @@
     #about-quality-img2 {
         margin-left: 29%;
     }
+
+    .lead-title {
+        width: auto;
+    }
+
+    .lead-book-img {
+        width: 79%;
+        height: auto;
+        margin-top: 466px;
+    }
 }
 
 @media (max-width:1000px) {
@@ -157,6 +167,9 @@
         width: auto;
     }
 
+    .lead {
+        margin-top: 700px;
+    }
 
 }
 
@@ -171,6 +184,10 @@
 
     .buy-conten__inner {
         justify-content: center;
+    }
+
+    .lead {
+        margin-top: 811px;
     }
 }
 
@@ -316,6 +333,71 @@
     .vector3 {
         margin-left: 0;
     }
+
+    .lead {
+        margin-top: 900px;
+    }
+
+    .lead-form {
+        margin-top: 424px;
+    }
+
+    .lead-book-img {
+        width: 99%;
+        height: auto;
+        margin-top: 150px;
+        margin-left: -7%;
+
+    }
+
+    .lead-form {
+        width: 300px;
+        height: 425px;
+        margin: 424px auto 0;
+    }
+
+    .lead-form_title {
+        font-size: 28px;
+        padding-top: 25px;
+    }
+
+    .lead-form_subtitle {
+        font-size: 14px;
+        margin-left: 12%;
+    }
+
+    .lead_rectangle {
+        width: 250px;
+        height: 47px;
+    }
+
+    .create-offer_title {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .lead-title_adaptive {
+        display: none;
+    }
+
+    .lead-title_pc {
+        display: block;
+    }
+
+    .lead-rectangle_container {
+        margin-top: 15px;
+
+        input {
+            font: size 14px;
+            width: 157px;
+        }
+    }
+
+    .lead-btn {
+        width: 250px;
+        height: 47px;
+    }
+
 }
 
 @media (max-width:580px) {
@@ -359,6 +441,14 @@
 
     .buy-section {
         height: 702px;
+    }
+
+    .lead-book-img {
+        margin-top: 149px;
+    }
+
+    .lead-form {
+        margin: 266px auto 0;
     }
 }
 
@@ -431,6 +521,14 @@
 
     .buy-section {
         height: 680px;
+    }
+
+    .lead-form {
+        margin: 240px auto 0;
+    }
+
+    .lead-book-img {
+        margin-top: 152px;
     }
 }
 
@@ -523,6 +621,10 @@
 
     .buy-title {
         margin-left: 4%;
+    }
+
+    .lead-book-img {
+        margin-top: 221px;
     }
 }
 
