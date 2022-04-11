@@ -1151,6 +1151,7 @@
 
 .footer-logo_container {
     display: flex;
+    flex-wrap: wrap;
 
     p {
         font-weight: 400;
@@ -1168,9 +1169,12 @@
 .footer__inner {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer__item {
+    margin: 10px 20px 0;
+
     a {
         display: grid;
         text-decoration: none;

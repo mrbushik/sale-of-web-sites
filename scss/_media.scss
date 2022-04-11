@@ -171,6 +171,9 @@
         margin-top: 700px;
     }
 
+    .footer {
+        margin-top: 150px;
+    }
 }
 
 @media (max-width:782px) {
@@ -400,6 +403,12 @@
 
 }
 
+@media (max-width:598px) {
+    .footer__inner {
+        justify-content: space-around;
+    }
+}
+
 @media (max-width:580px) {
     #about-quality-img2 {
         margin-left: 55%;
@@ -529,6 +538,10 @@
 
     .lead-book-img {
         margin-top: 152px;
+    }
+
+    .footer__inner {
+        justify-content: center;
     }
 }
 
@@ -665,5 +678,9 @@
 
     .buy-section {
         height: 784px;
+    }
+
+    .footer_info-inner {
+        flex-wrap: wrap;
     }
 }
