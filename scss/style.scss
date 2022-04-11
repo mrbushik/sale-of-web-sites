@@ -858,6 +858,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 39px;
+    justify-content: center;
 }
 
 .about__item-quality {
@@ -888,7 +889,7 @@
     img {
         position: absolute;
         margin-left: 14%;
-        margin-top: -1px;
+        margin-top: -2px;
     }
 }
 
