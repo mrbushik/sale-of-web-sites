@@ -118,6 +118,60 @@
     margin-top: 8px;
 }
 
+.active-menu {
+    background: #fff;
+}
+
+.drop-menu {
+    background: #fff;
+    border-top: 1px solid #DADADA;
+}
+
+.menu-active_btn {
+    transition: all 2s;
+    display: none;
+}
+
+.drop-menu-list {
+    display: flex;
+    list-style: none;
+
+    li {
+        padding: 10px 50px 0 0px;
+
+        a {
+            display: block;
+        }
+    }
+}
+
+.drop-menu__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop-menu__item:last-child {
+    p {
+        margin-top: 27px;
+    }
+}
+
+
+
+.drop-menu_mail {
+    display: flex;
+    margin-top: -42px;
+
+    p {
+        margin-left: 10px;
+        margin-top: 17px;
+    }
+
+    img {
+        margin-top: 12px;
+    }
+}
+
 .create__inner {
     display: flex;
     justify-content: space-between;
@@ -1244,6 +1298,8 @@
     }
 
 }
+
+
 
 .line {
     width: 160px;
