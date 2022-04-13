@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="stylesheet" href="./css/newStyle.css">
+
 </head>
-
-
 
 <header class="header ">
   <img class="img-header" src=".//img/baskground__header.png">
@@ -22,7 +22,7 @@
 
         <div class="menu-block">
           <div class="menu-block-btn">
-            <img  class="menu-active_btn"src="img/Vectormenu_BTN.svg">
+            <img  class="menu-active_btn d-none"src="img/Vectormenu_BTN.svg">
             <div class="header-row"></div>
             <div class="header-row"></div>
             <div class="header-row"></div>
@@ -52,8 +52,8 @@
   
   </div>
 </header>
-<section>
-  <div class="drop-menu">
+<section >
+  <div class="drop-menu d-none">
     <div class="container">
 
   
@@ -180,7 +180,7 @@
     <div class="price-form ">
 
       <!-- 1 form -->
-      <form class="form-question d-none">
+      <form class="form-question ">
         <div class=" form__inner ">
           <div class="form__item form-left-section">
             <div class="price-form-rectangls">
@@ -461,7 +461,7 @@
 
 
     </div>
-    <form class="form-question  ">
+    <form class="form-question  d-none" >
       <div class="form__inner bonus-form ">
         <div class="form__item form-left-section">
 
@@ -748,6 +748,7 @@
     </div>
   </div>
     </footer>
+    <script src='./dist/js/main.js'></script>
 </body>
 
 </html>

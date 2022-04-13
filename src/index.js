@@ -1,3 +1,3 @@
-// import menu from './modules/menu';
+import menu from './modules/menu';
 
-// menu();
+menu();
