@@ -4,6 +4,13 @@
     margin-top: 3;
 }
 
+.create-rectangle {
+    cursor: pointer;
+}
+
+.btn-active {
+    transition: all 1s;
+}
 
 
 .drop-menu {
@@ -70,6 +77,7 @@
     position: fixed;
     top: 21%;
     right: 23%;
+    cursor: pointer;
 }
 
 .pop-up_bg {

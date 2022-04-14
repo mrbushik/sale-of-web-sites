@@ -8,8 +8,6 @@ const menu = () => {
 
     let count = 0;
 
-    console.log(header);
-
     menuBtn.addEventListener("click", () => {
 
         row.forEach((item) => {
