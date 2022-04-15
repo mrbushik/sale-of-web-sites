@@ -6,17 +6,28 @@ const popUp = () => {
     const inputPhoneRectangle = document.querySelector('.pop-up_phone');
     const inputPhone = document.getElementById('ppop-up_phone-input');
     const form = document.querySelector('.mobile-phone_form');
-    const submitBtn = document.querySelector('.pop-up_submit');
+    const okBtn = document.querySelector('.thanks-btn');
 
 
     leaveRequestBtn.addEventListener('click', () => {
         popUpMenu.classList.remove('d-none');
     });
 
-
     closePopUp.addEventListener('click', () => {
         popUpMenu.classList.add('d-none');
     });
+
+
+    okBtn.addEventListener('click', () => {
+        thanksMenu.classList.add('d-none');
+
+    });
+
+
+    const closePopUpMenu = () => {
+        popUpMenu.classList.add('d-none');
+        thanksMenu.classList.remove('d-none');
+    };
 
 
     inputPhone.addEventListener('input', (e) => {
@@ -41,6 +52,7 @@ const popUp = () => {
         return success;
     };
 
+
     const sendData = (data) => {
         return fetch(' https://jsonplaceholder.typicode.com/posts', {
             method: 'POST',
@@ -60,7 +72,10 @@ const popUp = () => {
         formDate.forEach((val, key) => {
             formBody[key] = val;
         });
+
         if (validate(formElements)) {
+            closePopUpMenu();
+
             sendData(formBody)
                 .then(data => {
 
@@ -73,7 +88,7 @@ const popUp = () => {
                     console.log('some err');
                 });
         } else {
-            inputPhone.style.border = "1px solid red";
+            inputPhoneRectangle.style.border = "1px solid red";
 
         }
 
