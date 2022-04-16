@@ -177,7 +177,7 @@
     <div class="site-type-title price-title">Вашего сайта</div>
     <div class="prise-subtitle">Ответьте на несколько простых вопросов</div>
     <!-- надо скрывать при показе бонус формы -->
-    <div class="price-form ">
+    <div class="price-form d-none">
 
       <!-- 1 form -->
       <form class="form-question ">
@@ -461,7 +461,7 @@
 
 
     </div>
-    <form class="form-question  d-none">
+    <form class="form-question_bonus  ">
       <div class="form__inner bonus-form ">
         <div class="form__item form-left-section">
 
@@ -469,13 +469,13 @@
           <div class="target-question bonus-form_title">Заполните форму и получите приятный бонус от нашей команды
           </div>
           <div class="bonuse-rectangls">
-            <div class="type-about_rectangle form-next_rectangle phone-rectangl">
+            <div class="type-about_rectangle form-next_rectangle phone-rectangl phone-rectangl_bonus">
               <img src="img/Vectorprise_icon_phone.svg">
-              <input type="text" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _  ">
+              <input id="bonus-input" type="text" name="number" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _  ">
             </div>
-            <div class="type-about_rectangle form-next_rectangle submit-rectangl">
+            <button type="submit" class="type-about_rectangle form-next_rectangle submit-next_rectangl">
               <p>Отправить</p>
-            </div>
+            </button>
           </div>
 
         </div>

@@ -16,6 +16,15 @@
     background: linear-gradient(225deg, rgba(255, 255, 255, 0.27) 0%, rgba(84, 223, 67, 0.27) 11.25%, rgba(255, 255, 255, 0.27) 22.19%, rgba(84, 223, 67, 0.27) 27.92%, rgba(255, 255, 255, 0.27) 35.73%, rgba(84, 223, 67, 0.27) 44.06%, rgba(255, 255, 255, 0.27) 53.44%, rgba(84, 223, 67, 0.27) 63.33%, rgba(255, 255, 255, 0.27) 72.19%, rgba(84, 223, 67, 0.27) 80%, rgba(255, 255, 255, 0.27) 88.85%, rgba(84, 223, 67, 0.27) 99.27%, rgba(255, 255, 255, 0) 100%), #45c436;
 }
 
+.submit-next_rectangl {
+    border: none;
+    height: 53px;
+}
+
+.form-next_rectangle p {
+    padding: 0px 74px 16px 62px;
+}
+
 .drop-menu {
     position: relative;
     z-index: 10;
