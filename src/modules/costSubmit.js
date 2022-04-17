@@ -1,10 +1,13 @@
-const costSubmit = () => {
+export const costSubmit = ({
+    formName,
+    mobilePhoneInput,
+    mobilePhoneRectangle
+}) => {
     const thanksMenu = document.querySelector('.thanks-window');
-    const inputPhoneRectangle = document.querySelector('.phone-rectangl_bonus');
-    const inputPhone = document.getElementById('bonus-input');
-    const form = document.querySelector('.form-question_bonus');
+    const inputPhoneRectangle = document.querySelector(mobilePhoneRectangle);
+    const inputPhone = document.getElementById(mobilePhoneInput);
+    const form = document.querySelector(formName);
     const okBtn = document.querySelector('.thanks-btn');
-    console.log(form);
 
 
 
@@ -98,4 +101,4 @@ const costSubmit = () => {
         console.log(error.message);
     }
 };
-export default costSubmit;
+// export default costSubmit;
