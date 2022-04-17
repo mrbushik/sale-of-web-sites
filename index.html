@@ -177,7 +177,7 @@
     <div class="site-type-title price-title">Вашего сайта</div>
     <div class="prise-subtitle">Ответьте на несколько простых вопросов</div>
     <!-- надо скрывать при показе бонус формы -->
-    <div class="price-form d-none">
+    <div class="price-form ">
 
       <!-- 1 form -->
       <form class="form-question ">
@@ -461,7 +461,7 @@
 
 
     </div>
-    <form class="form-question_bonus  ">
+    <form class="form-question form-question_bonus  d-none">
       <div class="form__inner bonus-form ">
         <div class="form__item form-left-section">
 
@@ -474,7 +474,7 @@
               <input id="bonus-input" type="text" name="number" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _  ">
             </div>
             <button type="submit" class="type-about_rectangle form-next_rectangle submit-next_rectangl">
-              <p>Отправить</p>
+              <p id="cost-text_btn">Отправить</p>
             </button>
           </div>
 
@@ -680,16 +680,16 @@
       <form class="main_lead_form">
         <div class="lead-form_title">Заполните форму</div>
         <span class="lead-form_subtitle"> и моментально получите КП на разработку Вашего сайта</span>
-        <div class="lead_rectangle">
+        <div class="lead_rectangle lead_rectangle_name">
           <div class="lead-rectangle_container">
             <img src="img/lead/social 1LEAD-PERSON.svg">
-            <input name="name" type="text" placeholder="Введите Ваше имя">
+            <input name="name" id="lead-name_input" type="text" placeholder="Введите Ваше имя">
           </div>
         </div>
         <div class="lead_rectangle lead-rectangle_phone">
           <div class="lead-rectangle_container">
             <img src="img/Vectorprise_icon_phone.svg">
-            <input name="number" class="lead-phone_input"   type="text" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _">
+            <input name="number" id="lead-phone_input"   type="text" placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _">
           </div>
         </div>
         <button type="submit" class="lead-btn">Отправить</button>
@@ -765,10 +765,10 @@
       </div>
       <div class="footer__item">
         <ul class="sotial-container sotial-footer_container ">
-          <li class="sotial-icon_rectangle  footer-rectangle"><img src="img/lead/instagram-sketched 2INST=FOOTER.svg">
+          <li class="sotial-icon_rectangle  footer-rectangle"><a id="sotial-items_link" href="#"><img src="img/lead/instagram-sketched 2INST=FOOTER.svg"></a>
           </li>
-          <li class="sotial-icon_rectangle footer-rectangle"><img src="img/lead/WhatsAppFOOTER_WhatsApp.svg"></li>
-          <li class="sotial-icon_rectangle footer-rectangle"><img src="img/lead/VectorFOOTER-@MAIL.svg"></li>
+          <li class="sotial-icon_rectangle footer-rectangle"><a id="sotial-items_link" href="#"><img src="img/lead/WhatsAppFOOTER_WhatsApp.svg"></a></li>
+          <li class="sotial-icon_rectangle footer-rectangle"><a id="sotial-items_link" href="#"><img src="img/lead/VectorFOOTER-@MAIL.svg"></a></li>
         </ul>
       </div>
     </div>

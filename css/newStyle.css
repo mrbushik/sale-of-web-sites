@@ -21,7 +21,7 @@
     height: 53px;
 }
 
-.form-next_rectangle p {
+#cost-text_btn {
     padding: 0px 67px 25px;
 }
 
@@ -57,6 +57,10 @@
     text-align: center;
     padding: 0 20px;
 
+}
+
+#sotial-items_link {
+    display: contents;
 }
 
 .pop-up_bgtext {
@@ -224,6 +228,16 @@
 @media(max-width:607px) {
     .pop-up_form {
         left: 4%;
+    }
+}
+
+@media(max-width:466px) {
+    .developed {
+        margin-top: 300px;
+    }
+
+    .price-section {
+        margin-bottom: 700px;
     }
 }
 

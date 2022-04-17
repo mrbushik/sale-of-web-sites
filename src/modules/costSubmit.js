@@ -9,10 +9,10 @@ export const costSubmit = ({
     const inputPhone = document.getElementById(input);
     const form = document.querySelector(formName);
     const okBtn = document.querySelector('.thanks-btn');
-    const leadFormRectangle = document.querySelector('.lead-rectangle_phone');
-    const leadFormNumberInput = document.querySelector('.lead-phone_input');
+    const leadFormRectangle = document.querySelector('.lead_rectangle_name');
+    const leadFormNumberInput = document.getElementById('lead-name_input');
 
-
+    console.log(inputPhoneRectangle);
     okBtn.addEventListener('click', () => {
         thanksMenu.classList.add('d-none');
 
@@ -25,9 +25,9 @@ export const costSubmit = ({
 
     if (inputCoount === 2) {
         leadFormNumberInput.addEventListener('input', (e) => {
-            e.target.value = e.target.value.replace(/[^\d\+]/, '');
+            e.target.value = e.target.value.replace(/[^\а-я\А-Я]/, '');
             if (inputPhone.value.length > 4 && inputPhone.value.length < 16) {
-                leadFormRectangle.style.border = "none";
+                leadFormRectangle.style.border = "1px solid black";
             }
 
         });

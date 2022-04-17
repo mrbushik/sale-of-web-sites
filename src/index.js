@@ -13,13 +13,13 @@ costSubmit({
     formName: '.form-question_bonus',
     input: 'bonus-input',
     inputRectangle: '.phone-rectangl_bonus',
-    inputCoount: 1,
+    inputCoount: 2,
 
 });
 costSubmit({
-    formName: '.form-question_bonus',
-    input: 'bonus-input',
-    inputRectangle: '.phone-rectangl_bonus',
+    formName: '.main_lead_form',
+    input: 'lead-phone_input',
+    inputRectangle: '.lead-rectangle_phone',
     inputCoount: 2,
 
 });
