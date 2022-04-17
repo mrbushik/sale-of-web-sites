@@ -12,7 +12,6 @@ export const costSubmit = ({
     const leadFormRectangle = document.querySelector('.lead_rectangle_name');
     const leadFormNumberInput = document.getElementById('lead-name_input');
 
-    console.log(inputPhoneRectangle);
     okBtn.addEventListener('click', () => {
         thanksMenu.classList.add('d-none');
 
@@ -47,8 +46,6 @@ export const costSubmit = ({
             list.forEach((input) => {
                 if (input.value.length < 4 || input.value.length > 16) {
                     success = false;
-
-
                 }
 
             });
@@ -76,8 +73,8 @@ export const costSubmit = ({
     const submitForm = () => {
         const formDate = new FormData(form);
         const formBody = {};
-
         const formElements = form.querySelectorAll('input');
+
         formDate.forEach((val, key) => {
             formBody[key] = val;
         });
@@ -98,11 +95,6 @@ export const costSubmit = ({
                 });
         } else {
             inputPhoneRectangle.style.border = "1px solid red";
-            // if (inputCoount === 2) {
-            //     // leadFormRectangle.style.border = "1px solid blue";
-            //     inputPhoneRectangle.style.border = "1px solid red";
-
-            // }
         }
 
 

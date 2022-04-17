@@ -26,7 +26,7 @@ const cost = () => {
                         item.classList.remove('item-active');
                         formWrapper.classList.add('d-none');
                         success = true;
-                        if (window.screen.width < 466) {
+                        if (window.screen.width < 486) {
                             devSection.style.marginTop = '100px';
                             priceSection.style.marginBottom = '0px';
                         }

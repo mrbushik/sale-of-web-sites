@@ -29,6 +29,10 @@
     height: 53px;
 }
 
+.form-target_item {
+    margin-right: 10px;
+}
+
 #cost-text_btn {
     padding: 0px 67px 25px;
 }
@@ -227,6 +231,26 @@
     }
 }
 
+@media(max-width:836px) {
+    .developed {
+        margin-top: 170px;
+    }
+}
+
+@media(max-width:749px) {
+    .bonuse-rectangls {
+        display: grid;
+        margin-top: 0;
+    }
+
+    .form-next_rectangle {
+        margin: 20px auto 0;
+
+    }
+
+
+}
+
 @media(max-width:660px) {
     .pop-up_closeBtn {
         right: 15%;
@@ -239,7 +263,7 @@
     }
 }
 
-@media(max-width:466px) {
+@media(max-width:486px) {
     .developed {
         margin-top: 300px;
     }
