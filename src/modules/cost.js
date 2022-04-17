@@ -3,7 +3,6 @@ const cost = () => {
     const targetItem = document.querySelectorAll('.form-target_item');
     const form = document.querySelectorAll('.form-question');
     const formWrapper = document.querySelector('.price-form');
-    // const submit = document.querySelector('submit-next_rectang');
     const devSection = document.querySelector('.developed');
     const priceSection = document.querySelector('.price-section');
 
@@ -25,7 +24,7 @@ const cost = () => {
                 itemActive.forEach((item, index) => {
                     if (count === 3) {
                         item.classList.remove('item-active');
-                        formWrapper.classList.add('d-none')
+                        formWrapper.classList.add('d-none');
                         success = true;
                         if (window.screen.width < 466) {
                             devSection.style.marginTop = '100px';

@@ -25,32 +25,39 @@ export const costSubmit = ({
 
     if (inputCoount === 2) {
         leadFormNumberInput.addEventListener('input', (e) => {
-            e.target.value = e.target.value.replace(/[^\а-я\А-Я]/, '');
-            if (inputPhone.value.length > 4 && inputPhone.value.length < 16) {
-                leadFormRectangle.style.border = "1px solid black";
-            }
+            e.target.value = e.target.value.replace(/[^\а-яА-Я\s]/, '');
 
         });
     }
+    // if (inputCoount === 1) {
     inputPhone.addEventListener('input', (e) => {
         e.target.value = e.target.value.replace(/[^\d\+]/, '');
         if (inputPhone.value.length > 4 && inputPhone.value.length < 16) {
-            inputPhoneRectangle.style.border = "none";
+            inputPhoneRectangle.style.border = "1px solid #f2f2f2";
         }
 
     });
+    // }
+
 
 
     const validate = (list) => {
         let success = true;
-        list.forEach((input) => {
-            if (input.value.length < 4 || input.value.length > 16) {
+        if (inputCoount === 1) {
+            list.forEach((input) => {
+                if (input.value.length < 4 || input.value.length > 16) {
+                    success = false;
+
+
+                }
+
+            });
+        }
+        if (inputCoount === 2) {
+            if (inputPhone.value.length < 4 || inputPhone.value.length > 16) {
                 success = false;
-
-
             }
-
-        });
+        }
         return success;
     };
 
@@ -91,15 +98,15 @@ export const costSubmit = ({
                 });
         } else {
             inputPhoneRectangle.style.border = "1px solid red";
-            if (inputCoount === 2) {
-                leadFormRectangle.style.border = "1px solid red";
-            }
+            // if (inputCoount === 2) {
+            //     // leadFormRectangle.style.border = "1px solid blue";
+            //     inputPhoneRectangle.style.border = "1px solid red";
+
+            // }
         }
 
 
     };
-
-
 
     try {
         if (!form) {
