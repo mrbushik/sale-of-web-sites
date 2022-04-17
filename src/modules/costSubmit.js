@@ -1,14 +1,16 @@
 export const costSubmit = ({
     formName,
-    mobilePhoneInput,
-    mobilePhoneRectangle
+    input,
+    inputRectangle,
+    inputCoount,
 }) => {
     const thanksMenu = document.querySelector('.thanks-window');
-    const inputPhoneRectangle = document.querySelector(mobilePhoneRectangle);
-    const inputPhone = document.getElementById(mobilePhoneInput);
+    const inputPhoneRectangle = document.querySelector(inputRectangle);
+    const inputPhone = document.getElementById(input);
     const form = document.querySelector(formName);
     const okBtn = document.querySelector('.thanks-btn');
-
+    const leadFormRectangle = document.querySelector('.lead-rectangle_phone');
+    const leadFormNumberInput = document.querySelector('.lead-phone_input');
 
 
     okBtn.addEventListener('click', () => {
@@ -21,10 +23,18 @@ export const costSubmit = ({
         thanksMenu.classList.remove('d-none');
     };
 
+    if (inputCoount === 2) {
+        leadFormNumberInput.addEventListener('input', (e) => {
+            e.target.value = e.target.value.replace(/[^\d\+]/, '');
+            if (inputPhone.value.length > 4 && inputPhone.value.length < 16) {
+                leadFormRectangle.style.border = "none";
+            }
 
+        });
+    }
     inputPhone.addEventListener('input', (e) => {
         e.target.value = e.target.value.replace(/[^\d\+]/, '');
-        if (inputPhone.value.length > 4 || inputPhone.value.length < 16) {
+        if (inputPhone.value.length > 4 && inputPhone.value.length < 16) {
             inputPhoneRectangle.style.border = "none";
         }
 
@@ -81,7 +91,9 @@ export const costSubmit = ({
                 });
         } else {
             inputPhoneRectangle.style.border = "1px solid red";
-
+            if (inputCoount === 2) {
+                leadFormRectangle.style.border = "1px solid red";
+            }
         }
 
 
@@ -101,4 +113,3 @@ export const costSubmit = ({
         console.log(error.message);
     }
 };
-// export default costSubmit;

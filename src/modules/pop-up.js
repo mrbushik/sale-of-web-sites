@@ -32,7 +32,7 @@ const popUp = () => {
 
     inputPhone.addEventListener('input', (e) => {
         e.target.value = e.target.value.replace(/[^\d\+]/, '');
-        if (inputPhone.value.length > 4 || inputPhone.value.length < 16) {
+        if (inputPhone.value.length > 4 && inputPhone.value.length < 16) {
             inputPhoneRectangle.style.border = "none";
         }
 
