@@ -236,6 +236,7 @@
         margin-top: 300px;
     }
 
+
     .price-section {
         margin-bottom: 700px;
     }
@@ -252,8 +253,16 @@
     }
 }
 
-@media(max-width:415px) {
-    .pop-up_form {
-        min-width: 274px;
+@media(max-width:390px) {
+    #cost-text_btn {
+        padding: 0px 0px 0px 43px;
+    }
+
+    .submit-next_rectangl {
+        margin: 20px auto 0;
+    }
+
+    .form-cost3 {
+        margin-left: -30px;
     }
 }
