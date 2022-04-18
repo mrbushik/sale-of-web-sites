@@ -160,6 +160,12 @@
     margin-top: 45px;
 }
 
+/* new edit style */
+.img-header {
+    width: 99%;
+}
+
+
 .thanks-img {
     position: absolute;
     right: 0px;
@@ -238,6 +244,12 @@
     }
 }
 
+@media(max-width:720px) {
+    .img-header {
+        width: 98%;
+    }
+}
+
 @media(max-width:836px) {
     .developed {
         margin-top: 170px;
@@ -303,6 +315,12 @@
 
     .form-cost3 {
         margin-left: -30px;
+    }
+}
+
+@media(max-width:361px) {
+    .img-header {
+        width: 97%;
     }
 }
 
