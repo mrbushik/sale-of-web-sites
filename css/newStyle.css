@@ -231,6 +231,13 @@
     }
 }
 
+@media(max-width:779px) {
+    .project__item {
+        width: 220px;
+        height: 71px;
+    }
+}
+
 @media(max-width:836px) {
     .developed {
         margin-top: 170px;
