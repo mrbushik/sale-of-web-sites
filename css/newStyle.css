@@ -165,6 +165,7 @@
     width: 99%;
 }
 
+.lead-img,
 .buy-section {
     width: 99%;
 }
@@ -295,6 +296,7 @@
         width: 98%;
     }
 
+    .lead-img,
     .buy-section {
         width: 98%;
     }
@@ -380,6 +382,7 @@
         margin-right: 0;
     }
 
+    .lead-img,
     .buy-section {
         width: 97%;
     }
