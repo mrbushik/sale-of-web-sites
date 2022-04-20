@@ -165,6 +165,10 @@
     width: 99%;
 }
 
+.buy-section {
+    width: 99%;
+}
+
 
 .thanks-img {
     position: absolute;
@@ -290,6 +294,10 @@
     .img-header {
         width: 98%;
     }
+
+    .buy-section {
+        width: 98%;
+    }
 }
 
 @media(max-width:660px) {
@@ -371,6 +379,11 @@
     .site-type_item {
         margin-right: 0;
     }
+
+    .buy-section {
+        width: 97%;
+    }
+
 
 }
 
