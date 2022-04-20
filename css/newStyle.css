@@ -187,6 +187,17 @@
     width: fit-content;
 }
 
+.thanks-subtitle {
+    position: relative;
+    z-index: 10;
+}
+
+.thanks-btn {
+    position: absolute;
+    z-index: 10;
+}
+
+
 @media(max-width:1180px) {
     .pop-up_closeBtn {
         right: 20%;
@@ -195,7 +206,9 @@
 
 @media(max-width:1095px) {
     .thanks-img {
-        display: none;
+        opacity: 0.8;
+        bottom: 0px;
+        top: auto;
     }
 }
 
