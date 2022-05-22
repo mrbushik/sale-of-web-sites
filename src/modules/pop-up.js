@@ -22,7 +22,7 @@ const popUp = () => {
 
     const closePopUpMenu = () => {
         popUpMenu.classList.add('d-none');
-        // thanksMenu.classList.remove('d-none');
+        thanksMenu.classList.remove('d-none');
     };
 
     inputPhone.addEventListener('input', (e) => {
@@ -30,7 +30,6 @@ const popUp = () => {
         if (inputPhone.value.length > 4 && inputPhone.value.length < 16) {
             inputPhoneRectangle.style.border = "none";
         }
-
     });
 
     const validate = (list) => {
@@ -61,31 +60,21 @@ const popUp = () => {
         formDate.forEach((val, key) => {
             formBody[key] = val;
         });
-
         if (validate(formElements)) {
             closePopUpMenu();
-
             sendData(formBody)
                 .then(data => {
-
                     formElements.forEach(input => {
                         input.value = '';
                     });
                 })
-
                 .catch(error => {
                     console.log('some err');
                 });
         } else {
             inputPhoneRectangle.style.border = "1px solid red";
-
         }
-
-
     };
-
-
-
     try {
         if (!form) {
             throw new Error('добавьте элемент');

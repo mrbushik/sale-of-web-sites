@@ -1,10 +1,8 @@
 const siteExamples = () => {
-
     const examplesBtn = document.querySelectorAll('.project-btn');
     const onleneShopItems = document.querySelectorAll('.online-shop_item');
     const multiPageItems = document.querySelectorAll('.multi-page_item');
     const lendingItems = document.querySelectorAll('.lending_item ');
-
 
     examplesBtn.forEach((item, index) => {
 
@@ -24,7 +22,6 @@ const siteExamples = () => {
                 multiPageItems.forEach((item) => {
                     item.classList.add('d-none');
                 });
-
             } else if (index === 1) {
                 item.classList.toggle('btn-active');
 
@@ -37,7 +34,6 @@ const siteExamples = () => {
                 onleneShopItems.forEach((item) => {
                     item.classList.add('d-none');
                 });
-
             } else if (index === 2) {
                 item.classList.toggle('btn-active');
 

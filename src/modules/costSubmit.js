@@ -9,14 +9,12 @@ export const costSubmit = ({
     const inputPhone = document.getElementById(input);
     const form = document.querySelector(formName);
     const okBtn = document.querySelector('.thanks-btn');
-    const leadFormRectangle = document.querySelector('.lead_rectangle_name');
     const leadFormNumberInput = document.getElementById('lead-name_input');
 
     okBtn.addEventListener('click', () => {
         thanksMenu.classList.add('d-none');
 
     });
-
 
     const closePopUpMenu = () => {
         thanksMenu.classList.remove('d-none');
@@ -28,7 +26,6 @@ export const costSubmit = ({
 
         });
     }
-    // if (inputCoount === 1) {
     inputPhone.addEventListener('input', (e) => {
         e.target.value = e.target.value.replace(/[^\d\+]/, '');
         if (inputPhone.value.length > 4 && inputPhone.value.length < 16) {
@@ -36,9 +33,6 @@ export const costSubmit = ({
         }
 
     });
-    // }
-
-
 
     const validate = (list) => {
         let success = true;
@@ -47,7 +41,6 @@ export const costSubmit = ({
                 if (input.value.length < 4 || input.value.length > 16) {
                     success = false;
                 }
-
             });
         }
         if (inputCoount === 2) {
@@ -58,7 +51,6 @@ export const costSubmit = ({
         return success;
     };
 
-
     const sendData = (data) => {
         return fetch(' https://jsonplaceholder.typicode.com/posts', {
             method: 'POST',
@@ -68,7 +60,6 @@ export const costSubmit = ({
             }
         }).then(res => res.json());
     };
-
 
     const submitForm = () => {
         const formDate = new FormData(form);
@@ -81,7 +72,6 @@ export const costSubmit = ({
 
         if (validate(formElements)) {
             closePopUpMenu();
-
             sendData(formBody)
                 .then(data => {
 
@@ -96,10 +86,7 @@ export const costSubmit = ({
         } else {
             inputPhoneRectangle.style.border = "1px solid red";
         }
-
-
     };
-
     try {
         if (!form) {
             throw new Error('добавьте элемент');

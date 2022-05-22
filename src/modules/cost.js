@@ -8,16 +8,14 @@ const cost = () => {
 
     let count = 0;
     let nextForm = 1;
-    targetItem.forEach((item, index) => {
+    targetItem.forEach((item) => {
         item.addEventListener('click', (e) => {
             item.classList.toggle('item-active');
             targetItem[14].classList.remove('item-active');
-
         });
     });
     btn.forEach((item, index) => {
         item.addEventListener('click', (e) => {
-
             const checkItem = () => {
                 let success = false;
                 const itemActive = document.querySelectorAll('.item-active');
@@ -35,11 +33,8 @@ const cost = () => {
                         item.classList.remove('item-active');
                         success = true;
                     }
-
-
                 });
                 return success;
-
             };
 
             if (checkItem()) {
