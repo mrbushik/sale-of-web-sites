@@ -8,7 +8,6 @@ const popUp = () => {
     const form = document.querySelector('.mobile-phone_form');
     const okBtn = document.querySelector('.thanks-btn');
 
-
     leaveRequestBtn.addEventListener('click', () => {
         popUpMenu.classList.remove('d-none');
     });
@@ -17,18 +16,14 @@ const popUp = () => {
         popUpMenu.classList.add('d-none');
     });
 
-
     okBtn.addEventListener('click', () => {
         thanksMenu.classList.add('d-none');
-
     });
-
 
     const closePopUpMenu = () => {
         popUpMenu.classList.add('d-none');
-        thanksMenu.classList.remove('d-none');
+        // thanksMenu.classList.remove('d-none');
     };
-
 
     inputPhone.addEventListener('input', (e) => {
         e.target.value = e.target.value.replace(/[^\d\+]/, '');
@@ -38,20 +33,15 @@ const popUp = () => {
 
     });
 
-
     const validate = (list) => {
         let success = true;
         list.forEach((input) => {
             if (input.value.length < 4 || input.value.length > 16) {
                 success = false;
-
-
             }
-
         });
         return success;
     };
-
 
     const sendData = (data) => {
         return fetch(' https://jsonplaceholder.typicode.com/posts', {
@@ -62,7 +52,6 @@ const popUp = () => {
             }
         }).then(res => res.json());
     };
-
 
     const submitForm = () => {
         const formDate = new FormData(form);
