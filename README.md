@@ -4,4 +4,4 @@
 
  # Open with Git pages
 
-Open [sale-of-web-sites](https://mrbushik.github.io/Website-for-Electricians/) 
+Open [sale-of-web-sites](https://mrbushik.github.io/sale-of-web-sites/) 
