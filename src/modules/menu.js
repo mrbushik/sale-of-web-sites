@@ -24,7 +24,6 @@ const menu = () => {
     });
 
     const appearanceBtn = (elem) => {
-
         const appearanceBtnTimer = setInterval(() => {
             count += 0.05;
             elem.style.opacity = count;

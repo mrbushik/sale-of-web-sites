@@ -55,8 +55,8 @@ const popUp = () => {
     const submitForm = () => {
         const formDate = new FormData(form);
         const formBody = {};
-
         const formElements = form.querySelectorAll('input');
+       
         formDate.forEach((val, key) => {
             formBody[key] = val;
         });
@@ -75,6 +75,7 @@ const popUp = () => {
             inputPhoneRectangle.style.border = "1px solid red";
         }
     };
+
     try {
         if (!form) {
             throw new Error('добавьте элемент');
@@ -87,4 +88,5 @@ const popUp = () => {
         console.log(error.message);
     }
 };
+
 export default popUp;

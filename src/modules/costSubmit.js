@@ -13,7 +13,6 @@ export const costSubmit = ({
 
     okBtn.addEventListener('click', () => {
         thanksMenu.classList.add('d-none');
-
     });
 
     const closePopUpMenu = () => {
@@ -23,15 +22,14 @@ export const costSubmit = ({
     if (inputCoount === 2) {
         leadFormNumberInput.addEventListener('input', (e) => {
             e.target.value = e.target.value.replace(/[^\а-яА-Я\s]/, '');
-
         });
     }
+
     inputPhone.addEventListener('input', (e) => {
         e.target.value = e.target.value.replace(/[^\d\+]/, '');
         if (inputPhone.value.length > 4 && inputPhone.value.length < 16) {
             inputPhoneRectangle.style.border = "1px solid #f2f2f2";
         }
-
     });
 
     const validate = (list) => {
@@ -79,7 +77,6 @@ export const costSubmit = ({
                         input.value = '';
                     });
                 })
-
                 .catch(error => {
                     console.log('some err');
                 });
@@ -87,6 +84,7 @@ export const costSubmit = ({
             inputPhoneRectangle.style.border = "1px solid red";
         }
     };
+    
     try {
         if (!form) {
             throw new Error('добавьте элемент');
