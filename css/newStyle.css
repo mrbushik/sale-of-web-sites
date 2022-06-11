@@ -217,7 +217,9 @@
       outline: none;
       border: none;
   }
-
+  .lead-img, .buy-section {
+    width: 100%;
+  } 
 
 @media(max-width:1180px) {
     .pop-up_closeBtn {
@@ -232,7 +234,11 @@
         top: auto;
     }
 }
-
+@media(max-width:870px) {
+    .lead-img, .buy-section {
+        width: 99%;
+      }
+}
 @media(max-width:845px) {
     .pop-up_title {
         font: size 28px;
@@ -388,7 +394,12 @@
         right: 2%;
     }
 }
-
+@media(max-width:397px) {
+.buy-section{
+    width: 100%;
+margin-left: -10px;
+}
+}
 @media(max-width:390px) {
     #cost-text_btn {
         padding: 0px 0px 0px 43px;
@@ -413,13 +424,6 @@
     .site-type_item {
         margin-right: 0;
     }
-
-    .lead-img,
-    .buy-section {
-        width: 97%;
-    }
-
-
 }
 
 @media (max-width: 381px) {
