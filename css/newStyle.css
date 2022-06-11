@@ -424,6 +424,9 @@ margin-left: -10px;
     .site-type_item {
         margin-right: 0;
     }
+    .type-img {
+        margin: 36px 24px 35px 1px;
+}
 }
 
 @media (max-width: 381px) {
