@@ -259,8 +259,6 @@
         margin-top: 15px;
     }
 
-  
-
     .pop-up_submit {
         height: 42px;
         width: 228px;
@@ -279,6 +277,9 @@
     .thanks-form {
         right: 15%;
         left: 5%;
+    }
+    #ppop-up_phone-input{
+        margin-top: 10px;
     }
 }
 
@@ -338,6 +339,9 @@
     .site-type-title {
         margin: 0 auto;
     }
+    .lead-rectangle_container {
+        margin-top: 11px;
+      }
 }
 
 @media(max-width:607px) {
